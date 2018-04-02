@@ -6,7 +6,8 @@
   {:method      "post"
    :credentials "include"
    :headers     {"Accept"       "application/json"
-                 "Content-Type" "application/json"}})
+                 "Content-Type" "application/json"
+                 "X-Requested-With" "fetch"}})
 
 #?(:cljs
    (defn default-fail [res]
