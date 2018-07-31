@@ -1,4 +1,4 @@
-(defproject ajk/specialist-client "0.1.0-SNAPSHOT"
+(defproject ajk/specialist-client "0.1.0"
   :description "ClojureScript GraphQL client"
   :url "https://github.com/ajk/specialist-client"
   :license {:name "Eclipse Public License"
